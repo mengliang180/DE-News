@@ -1,0 +1,149 @@
+body{
+    font-family: "Siemreap", sans-serif;
+    font-size: 16px;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+ul li{
+    transition: all 0.2s;
+    font-size: 18px;
+    font-family:"Koulen", Arial, Helvetica, sans-serif;
+    line-height: 22px;
+    /* background-color: aquamarine; */
+    
+}
+ul li:hover{
+    background-color: #adb5bd;
+}
+.img-box{
+    width: 100%;
+    height: 250px;
+    margin: 0px;
+    margin-bottom: 10px;
+    padding-left: 15px;
+    /* background-color: red; */
+}
+.img-box img {
+    width: 100%;
+    height: 100%;
+    /* object-fit: contain; */
+   
+}
+.txt-title{
+    width: 70%;
+    height: 120px;
+    overflow: hidden;
+    /* background-color:blue; */
+}
+.txt-title a{
+    color: black;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.sub-img-box{
+    width: 20%;
+    height: 50px;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 0px;
+}
+.sub-des{
+    width: 66%;
+    height: 50%;
+    font-size: 12px;
+    overflow-wrap: normal;
+}
+.sub-des a{
+    font-size: 12px;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+.sub-img-box img{
+    width: 100%;
+    height: 100%;
+}
+.contain-row{
+    display: flex;
+    flex-direction: column;
+}
+/* .custom-margin {
+    
+    margin-right: 0.75rem; 
+  } */
+/*Small devices(landscape phones,576px and up*/
+@media (min-width: 576px){
+    .contain-row{
+        display: flex;
+        flex-direction: row;
+    }
+    .img-box{
+        width: 100%;
+        height: 350px;
+    }
+}
+/*Medium devices(tablets,768px and up*/
+@media (min-width: 768px){
+    .img-box{
+        width: 30%;
+        height: 140px;
+        margin: 0px;
+        /* padding-right: 15px; */
+        /* background-color: red; */
+    }
+    .txt-title{
+        margin-left: 1%;
+        width: 69%;
+        height: 140px;
+        /* background-color:blue; */
+    }
+}
+/*Large devices( desktop,992px and up*/
+@media (min-width: 992px){
+    .img-box{
+        width: 30%;
+        height: 140px;
+        margin: 0px;
+        padding-right: 15px;
+        overflow: hidden;
+        /* background-color: red; */
+    }
+    .txt-title{
+        margin-left: 1%;
+        width: 69%;
+        height: 140px;
+        /* background-color:blue; */
+    }
+}
+/*X-Large devices(Lage desktop,992px and up*/
+@media (min-width: 1200px){
+    .img-box{
+        width: 30%;
+        height: 140px;
+        margin: 0px;
+        padding-left: 15px;
+        overflow: hidden;
+        /* background-color: red; */
+    }
+    .txt-title{
+        margin-left: 1%;
+        width: 69%;
+        height: 140px;
+        overflow: hidden;
+        /* background-color:blue; */
+    }
+    .contain-row{
+        display: flex;
+        flex-direction: row;
+    }
+    .des{
+        height: 100%;
+        overflow: hidden;
+    }
+}
+/*XX-Large devices(Lager desktop,1400px and up*/
+@media (min-width: 1400px){
+    
+}
